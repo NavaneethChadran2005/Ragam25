@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Tracking Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="dashboard">
+    <div class="profile">
+      <div class="profile-header">
+        <img src="image-jeremy.png" alt="Profile" class="profile-pic">
+        <div>
+          <p>Report for</p>
+          <h2>Jeremy<br> Robson</h2>
+        </div>
+      </div>
+      <div class="time-filter">
+        <button data-period="daily">Daily</button>
+        <button data-period="weekly" class="active">Weekly</button>
+        <button data-period="monthly">Monthly</button>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="card work">
+        <div class="card-header">
+          <img src="icon-work.svg" alt="Work Icon" class="card-icon">
+          <h3>Work</h3>
+          <img src="icon-ellipsis.svg" alt="Menu" class="menu-icon">
+        </div>
+        <p class="hours">32hrs</p>
+        <p class="previous">Last Week - 36hrs</p>
+      </div>
+    
+      <div class="card play">
+        <div class="card-header">
+          <img src="icon-play.svg" alt="Play Icon" class="card-icon">
+          <h3>Play</h3>
+          <img src="icon-ellipsis.svg" alt="Menu" class="menu-icon">
+        </div>
+        <p class="hours">10hrs</p>
+        <p class="previous">Last Week - 8hrs</p>
+      </div>
+    
+      <div class="card study">
+        <div class="card-header">
+          <img src="icon-study.svg" alt="Study Icon" class="card-icon">
+          <h3>Study</h3>
+          <img src="icon-ellipsis.svg" alt="Menu" class="menu-icon">
+        </div>
+        <p class="hours">4hrs</p>
+        <p class="previous">Last Week - 7hrs</p>
+      </div>
+    
+      <div class="card exercise">
+        <div class="card-header">
+          <img src="icon-exercise.svg" alt="Exercise Icon" class="card-icon">
+          <h3>Exercise</h3>
+          <img src="icon-ellipsis.svg" alt="Menu" class="menu-icon">
+        </div>
+        <p class="hours">4hrs</p>
+        <p class="previous">Last Week - 5hrs</p>
+      </div>
+    
+      <div class="card social">
+        <div class="card-header">
+          <img src="icon-social.svg" alt="Social Icon" class="card-icon">
+          <h3>Social</h3>
+          <img src="icon-ellipsis.svg" alt="Menu" class="menu-icon">
+        </div>
+        <p class="hours">5hrs</p>
+        <p class="previous">Last Week - 10hrs</p>
+      </div>
+    
+      <div class="card self-care">
+        <div class="card-header">
+          <img src="icon-self-care.svg" alt="Self Care Icon" class="card-icon">
+          <h3>Self Care</h3>
+          <img src="icon-ellipsis.svg" alt="Menu" class="menu-icon">
+        </div>
+        <p class="hours">2hrs</p>
+        <p class="previous">Last Week - 2hrs</p>
+      </div>
+    </div>
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
