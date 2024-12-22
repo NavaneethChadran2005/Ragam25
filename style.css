@@ -42,7 +42,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 450px; /* Adjusted to fit design */
+  height: 450px; 
 }
 
 .profile-header {
@@ -114,52 +114,48 @@ body {
   color: white;
 }
 
-/* Header styling for the image and text */
 .card-header {
   position: relative;
-  height: 50px; /* Reduced height */
+  height: 50px; 
   display: flex;
-  justify-content: space-between; /* Align text and ellipsis on opposite sides */
-  align-items: center; /* Vertically align text and ellipsis */
-  padding-right: 10px; /* Add space on the right for the ellipsis */
+  justify-content: space-between; 
+  align-items: center; 
+  padding-right: 10px; 
   background-repeat: no-repeat;
-  background-position: top right; /* Image in the top-right corner */
-  background-size: 40px; /* Adjust image size */
+  background-position: top right; 
+  background-size: 40px; 
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  margin-bottom: 10px; /* Space below the header */
+  margin-bottom: 10px; 
 }
 .menu-icon {
-  font-size: 24px; /* Size of the ellipsis */
-  color: white; /* White color for visibility */
-  cursor: pointer; /* Pointer cursor to indicate interactivity */
-  margin-top: 5px; /* Space between heading and the ellipsis button */
-  display: inline-block; /* Make it behave like an inline block */
+  font-size: 24px; 
+  color: white; 
+  cursor: pointer; 
+  margin-top: 5px; 
+  display: inline-block;
 }
 
 .menu-icon:hover {
-  opacity: 0.8; /* Slight transparency for hover effect */
-}
+  opacity: 0.8;
 
-/* Optional: Add a more rounded button-like effect */
 .menu-icon-container {
   display: flex;
-  justify-content: center; /* Center the dots */
+  justify-content: center; 
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.3); /* Slight dark background for contrast */
-  border-radius: 50%; /* Circle shape */
+  background-color: rgba(0, 0, 0, 0.3); 
+  border-radius: 50%; 
   padding: 5px;
 }
 
 .card-header h3 {
   margin: 5px 0;
-  font-size: 18px; /* Consistent heading size */
+  font-size: 18px; 
   font-weight: bold;
   color: white;
-  text-align: center; /* Center heading */
+  text-align: center;
 }
 
-/* Specific icons for each activity */
 .card.work .card-header {
   background-image: url('icon-work.svg');
   background-color: var(--light-red);
@@ -190,7 +186,6 @@ body {
   background-color: var(--soft-orange);
 }
 
-/* Card content positioning */
 .card .hours {
   font-size: 32px;
   margin: 10px 0;
